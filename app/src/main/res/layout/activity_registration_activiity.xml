@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/screenbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/shop" />
+
+        <TextView
+            android:layout_width="409dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="User Registration Here"
+            android:textColor="@color/colorRed"
+            android:textSize="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/userfnamewrapper"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/user_fastName"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fname"
+                    android:inputType="text"
+                    android:textColorHint="@color/colorRed"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/userlnamewrapper">
+
+                <EditText
+                    android:id="@+id/user_lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lname"
+                    android:inputType="text"
+                    android:textColorHint="@color/colorRed"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/useremailwrapper">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_email"
+                    android:id="@+id/user_email"
+                    android:inputType="textEmailAddress"/>
+
+
+            </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/userpasswrapper"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/rpass"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pass"
+                    android:inputType="text"
+                    android:textColorHint="@color/colorRed"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:id="@+id/usercpasswrapper">
+
+                <EditText
+                    android:id="@+id/user_confirm_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/conpass"
+                    android:inputType="text"
+                    android:textColorHint="@color/colorRed"
+                    android:textSize="18dp" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/usernumberwrapper">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contactn"
+                android:id="@+id/user_contact_number"
+                android:inputType="number"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnsignupbg"
+
+            android:textSize="20dp"
+            android:text="Register"/>
+
+
+        </LinearLayout>
+    </LinearLayout>

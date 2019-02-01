@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "589522367785",
+    "firebase_url": "https://androidshop12-f8b80.firebaseio.com",
+    "project_id": "androidshop12-f8b80",
+    "storage_bucket": "androidshop12-f8b80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589522367785:android:e015bb5b02d2c8da",
+        "android_client_info": {
+          "package_name": "com.example.mobileshopapp12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589522367785-rp3s5oregg0idatl5jk4gn2jdq651ekm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIh7wzJQCyuZvsK8PxdKLRox5ZEt5aWqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

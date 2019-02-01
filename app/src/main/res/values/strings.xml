@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MobileShopApp12</string>
+    <string name="intro_first_line">The Easy shopping solution</string>
+    <string name="intro_second_line">Shop is in your hand now</string>
+    <string name="byn_login">User Login here </string>
+    <string name="btn_user_signup">New user Register here</string>
+    <string name="enter_email">Enter your Email</string>
+    <string name="enter_password">enter your password</string>
+    <string name="user_login">User Login</string>
+    <string name="user_registration">New User Registration</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last  Name</string>
+    <string name="emailadd">Email address</string>
+    <string name="pass">Password</string>
+    <string name="conpass">Confirm Password</string>
+    <string name="contactn">Contact Number</string>
+    <string name="popular_products">Popular products</string>
+    <string name="browser_category">Browser Category</string>
+</resources>
